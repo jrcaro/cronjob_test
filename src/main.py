@@ -14,7 +14,7 @@ def main(booking_hour):
     start_time = datetime.strptime(str(booking_hour), '%H%M')
 
     while(1):
-        logging.info("Waiting booking hour")
+        logging.info(f"Waiting booking hour {start_time}")
         if (time_now.minute == start_time.minute) & (time_now.hour == start_time.hour):
             logging.info(f"Hora es: {datetime.now()} UTC / {time_now} Europa")
             break
