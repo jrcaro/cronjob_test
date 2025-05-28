@@ -1,1 +1,3 @@
-"# cronjob_test" 
+# cronjob_test
+
+Test GitHub cron jobs.
